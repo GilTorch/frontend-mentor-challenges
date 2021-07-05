@@ -64,6 +64,6 @@ I didn't use a lot of resources for this except [W3 Schools](https://www.w3schoo
 ## Author
 
 - Frontend Mentor - [@GilTorch](https://www.frontendmentor.io/profile/GilTorch)
-- Twitter - [@yourusername](https://twitter.com/TorchonGilbert)
+- Twitter - [@TorchonGilbert](https://twitter.com/TorchonGilbert)
 
 
