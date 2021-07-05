@@ -38,6 +38,7 @@ body{
 
 .column .column-description{
     width: 100%;
+    height: 30%;
     margin: 20% 0;
     font-family: 'Lexend Deca', sans-serif;
     font-size: 15px;
@@ -54,7 +55,9 @@ body{
     width: 140px;
     font-size: 15px;
     font-family: 'Lexend Deca', sans-serif;
-    margin-top: 1%;
+    position: relative;
+    top: 0px;
+    bottom: 10px;
 }
 
 .column-button:hover{
