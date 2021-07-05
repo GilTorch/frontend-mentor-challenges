@@ -1,5 +1,8 @@
 body{
     background-color: white;
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
 }
 
 .columns {
@@ -16,15 +19,15 @@ body{
 }
 
 .column-1{
-    background-color: hsl(31, 77%, 52%);
+    background-color: var(--bright-orange);
 }
 
 .column-2{
-    background-color:  hsl(184, 100%, 22%);
+    background-color:  var(--dark-cyan);
 }
 
 .column-3{
-    background-color: hsl(179, 100%, 13%);
+    background-color: var(--very-dark-cyan);
 }
 
 .column .column-title{
@@ -48,7 +51,6 @@ body{
 
 .column .column-button{
     background-color: white;
-    color:hsl(31, 77%, 52%);
     border-radius: 100px;
     border:none;
     height: 50px;
@@ -58,6 +60,18 @@ body{
     position: relative;
     top: 0px;
     bottom: 10px;
+}
+
+.column .bright-orange{
+    color: var(--bright-orange);
+}
+
+.column .dark-cyan{
+    color: var(--dark-cyan)
+}
+
+.column .very-dark-cyan{
+    color: var(--very-dark-cyan)
 }
 
 .column-button:hover{
